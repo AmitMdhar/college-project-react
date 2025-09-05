@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+
+}
+
+.app {
+  align-items: flex;
+  color: blue;
+  font-size: 20px;
+  background-color: aqua;
+  border-style: solid;
+  border-radius: 6px;
+  text-align: center;
+  padding: 20px 20px 30px;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 30%;
+  margin:20px,auto;
+  padding: 20px;
+  border-style: solid;
+  border-radius: 30px;
+  background-color: null;
+}
+h5 {
+  color: red;
+}
+img {
+  width: 100px;
+  height: 100px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  justify-content: center;
+  gap: 4rem;
+  padding: 20px;
+  display: flex;
+}
+ul{
+  display: flex;
+}
